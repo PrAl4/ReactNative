@@ -1,0 +1,31 @@
+const images = {
+    image1: "https://github.com/PrAl4/ReactNative/blob/main/image_data/image1.jpg?raw=true",
+    image2: "https://github.com/PrAl4/ReactNative/blob/main/image_data/image2.jpg?raw=true",
+    image5: "https://github.com/PrAl4/ReactNative/blob/main/image_data/image5.jpg?raw=true",
+    image6: "https://github.com/PrAl4/ReactNative/blob/main/image_data/image6.jpg?raw=true",
+    image7:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image7.jpg?raw=true",
+    image10:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image10.jpg?raw=true",
+    image12:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image12.jpg?raw=true",
+    image14:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image14.jpg?raw=true",
+    image15:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image15.jpg?raw=true",
+    image16:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image16.jpg?raw=true",
+    image17:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image17.jpg?raw=true",
+    image19:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image19.jpg?raw=true",
+    image20:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image20.jpg?raw=true",
+    image21:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image21.jpg?raw=true",
+    image22:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image22.jpg?raw=true",
+    image23:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image23.jpg?raw=true",
+    image24:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image24.jpg?raw=true",
+    image25:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image25.jpg?raw=true",
+    image26:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image26.jpg?raw=true",
+    image27:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image27.jpg?raw=true",
+    image29:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image29.jpg?raw=true",
+    image30:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image30.jpg?raw=true",
+    image31:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image31.jpg?raw=true",
+    image32:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image32.jpg?raw=true",
+    image35:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image35.jpg?raw=true",
+    image36:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image36.jpg?raw=true",
+    image38:"https://github.com/PrAl4/ReactNative/blob/main/image_data/image38.jpg?raw=true"
+} as const;
+  export type ImageKeys = keyof typeof images;
+  export default images;
